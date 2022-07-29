@@ -9,7 +9,7 @@ and dispatching the input event every 1 / 1000 of a second
 
 ## Basic version
 Press <kbd>ctrl + shift + i</kbd> or <kbd>F12</kbd> and paste it in the console <br />
-If you don't like pasting it in everytime, here's [another version](#script with button)
+If you don't like pasting it in everytime, here's [another version](#script-with-button)
 ```js
 setInterval(function() {
     let text = document.querySelector(".highlight").textContent + " ";
