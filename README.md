@@ -1,6 +1,10 @@
 # 10ff.net Script
 
 Script for cheating in <a href="https://10ff.net">10ff.net</a> typing test
+## How it works 
+It basically is selecting the highlited text in the test (which is the current word that you are going to type) setting it to a variable<br />
+and setting the input field's value to that variable
+and dispatching the input event every 1 / 1000 of a second
 
 ## Basic version
 Press <kbd>ctrl + shift + i</kbd> or <kbd>F12</kbd> and paste it in the console
@@ -29,7 +33,7 @@ Paste in this code
 // @version      0.1
 // @description  try to take over the world!
 // @author       You
-// @match        https://10fastfingers.com/typing-test/english
+// @match        https://10ff.net
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=10fastfingers.com
 // @grant        none
 // ==/UserScript==
@@ -58,4 +62,3 @@ Paste in this code
     document.body.appendChild(btn);
 })();
 ```
-## How it works 
