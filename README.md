@@ -2,14 +2,14 @@
 
 Script for cheating in <a href="https://10ff.net">10ff.net</a> typing test <br />
 Note. [^1]
-
 ## How it works 
 It basically is selecting the *highlited text* in the test (which is the current word that you are going to type) setting it to a variable<br />
 and setting the input field's value to that variable
 and dispatching the input event every 1 / 1000 of a second
 
 ## Basic version
-Press <kbd>ctrl + shift + i</kbd> or <kbd>F12</kbd> and paste it in the console
+Press <kbd>ctrl + shift + i</kbd> or <kbd>F12</kbd> and paste it in the console <br />
+If you don't like pasting it in everytime, here's [another version](#script with button)
 ```js
 setInterval(function() {
     let text = document.querySelector(".highlight").textContent + " ";
@@ -68,4 +68,4 @@ you just need to press the button <br />
 4. Press it and you're off to cheating :sunglasses:
 <br />
 
-[^1]: I recommend you not to cheat :)
+[^1]: I recommend you not to cheat :alien:
