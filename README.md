@@ -1,8 +1,10 @@
 # 10ff.net Script
 
-Script for cheating in <a href="https://10ff.net">10ff.net</a> typing test
+Script for cheating in <a href="https://10ff.net">10ff.net</a> typing test <br />
+Note. [^1]
+
 ## How it works 
-It basically is selecting the highlited text in the test (which is the current word that you are going to type) setting it to a variable<br />
+It basically is selecting the *highlited text* in the test (which is the current word that you are going to type) setting it to a variable<br />
 and setting the input field's value to that variable
 and dispatching the input event every 1 / 1000 of a second
 
@@ -24,8 +26,8 @@ This script creates a button on the page so that you don't need to paste the scr
 you just need to press the button <br /> 
 ### Usage
 
-Install a userscript extension like <a href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en">Tampermonkey</a><br>
-Paste in this code 
+1. Install a userscript extension like <a href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en">Tampermonkey</a><br>
+2. Paste in this code 
 ```js
 // ==UserScript==
 // @name         New Userscript
@@ -62,3 +64,8 @@ Paste in this code
     document.body.appendChild(btn);
 })();
 ```
+3. When you load up the page, there will be a grey / orange at the bottom left of the page <br />
+4. Press it and you're off to cheating :sunglasses:
+<br />
+
+[^1]: I recommend you not to cheat :)
