@@ -1,5 +1,5 @@
 window.onload() = function() {
-    //alert("script made by g4o2")
+    //alert("script made by g4o2 button is at the bottom left")
     var sheet = window.document.styleSheets[0];
     sheet.insertRule('button{height:60px;width:150px;background:darkgrey;border-radius:10px;border:solid 3px orange;color:orange;}', sheet.cssRules.length);
     let btn = document.createElement("button");
